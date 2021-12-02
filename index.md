@@ -2,14 +2,24 @@
 layout: page
 ---
 
-<img align="right" width="45%" src="{{ site.baseurl }}/images/404.jpg" border="500">
+<img align="right" width="45%" src="{{ site.baseurl }}/images/ben.jpg" border="500">
 
-**_Precision Atomic Theory Group, University of Queensland_**
-Breif intro to group
+**_ARC DECRA Fellow, University of Queensland, Australia._**
+Working in theoretical atomic physics and particle astrophysics. Previously at
+[SYRTE, the Observatoire de Paris](https://syrte.obspm.fr),
+France, working on possibilities for dark matter detection using high-precision atomic clocks, and the University of Nevada, Reno, as part of the
+[GPS.DM](http://www.dereviankogroup.com/gps-dark-matter/) Collaboration.
+[PhD]({{ site.baseurl }}/posts/phd-thesis)
+in theoretical atomic physics from UNSW, Australia, in Sydney.
 
 ### Links
- * link a
- * link b
+ * ORCiD: [orcid.org/0000-0002-0345-6375](https://orcid.org/0000-0002-0345-6375)
+ * arXiv profile (all papers, free downloads): [arxiv.org/a/roberts_b_1](https://arxiv.org/a/roberts_b_1.html)
+ * [UQ researcher page](https://researchers.uq.edu.au/researcher/24237)
+ * GitHub: [github.com/benroberts999](https://github.com/benroberts999)
+ * [Brief CV (pdf)]({{ site.baseurl }}/docs/cv.pdf)
+ * [Full publications list (pdf)]({{ site.baseurl }}/docs/publications.pdf)
+ * Contact me: b.roberts [@] uq.edu.au
 
 
 
@@ -33,6 +43,24 @@ Breif intro to group
 {% endfor %}
 </div>
 
-[See more: /publications:]({{ site.baseurl }}/publications)
+[See more: /research:]({{ site.baseurl }}/research)
 
 *********************************************************************
+
+# Recent posts:
+
+<div class="entry">
+{% assign posts = site.posts %}
+{% for post in posts limit:3 %}
+<article class="post">
+
+  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  <div class="entry">
+    {{ post.excerpt }}
+  </div>
+
+</article>
+{% endfor %}
+</div>
+
+[See more: /posts:]({{ site.baseurl }}/posts)
