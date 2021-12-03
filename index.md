@@ -2,25 +2,24 @@
 layout: page
 ---
 
-<img align="right" width="45%" src="{{ site.baseurl }}/images/ben.jpg" border="500">
+img {
+  border: 10px solid #000;
+}
+<img align="right" width="45%" src="{{ site.baseurl }}/images/group.jpg">
 
-**_ARC DECRA Fellow, University of Queensland, Australia._**
-Working in theoretical atomic physics and particle astrophysics. Previously at
-[SYRTE, the Observatoire de Paris](https://syrte.obspm.fr),
-France, working on possibilities for dark matter detection using high-precision atomic clocks, and the University of Nevada, Reno, as part of the
-[GPS.DM](http://www.dereviankogroup.com/gps-dark-matter/) Collaboration.
-[PhD]({{ site.baseurl }}/posts/phd-thesis)
-in theoretical atomic physics from UNSW, Australia, in Sydney.
+**_Precision Atomic Theory Group, University of Queensland, Australia_**
 
-### Links
- * ORCiD: [orcid.org/0000-0002-0345-6375](https://orcid.org/0000-0002-0345-6375)
- * arXiv profile (all papers, free downloads): [arxiv.org/a/roberts_b_1](https://arxiv.org/a/roberts_b_1.html)
- * [UQ researcher page](https://researchers.uq.edu.au/researcher/24237)
- * GitHub: [github.com/benroberts999](https://github.com/benroberts999)
- * [Brief CV (pdf)]({{ site.baseurl }}/docs/cv.pdf)
- * [Full publications list (pdf)]({{ site.baseurl }}/docs/publications.pdf)
- * Contact me: b.roberts [@] uq.edu.au
+Some background info about group. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+
+### Research Areas
+  * High-precision atomic many-body theory
+  * Quantum electrodynamics corrections to heavy-atom phenomena
+  * Violations of fundamental symmetries
+  * Precision tests of the standard model of particle physics and searches for new physics
+  * Superheavy elements
+  * Searches for dark matter and exotic physics
+  * Particle astrophysics
 
 
 &nbsp;
@@ -43,24 +42,6 @@ in theoretical atomic physics from UNSW, Australia, in Sydney.
 {% endfor %}
 </div>
 
-[See more: /research:]({{ site.baseurl }}/research)
+[See more: /research:]({{ site.baseurl }}/publications)
 
 *********************************************************************
-
-# Recent posts:
-
-<div class="entry">
-{% assign posts = site.posts %}
-{% for post in posts limit:3 %}
-<article class="post">
-
-  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-  <div class="entry">
-    {{ post.excerpt }}
-  </div>
-
-</article>
-{% endfor %}
-</div>
-
-[See more: /posts:]({{ site.baseurl }}/posts)
