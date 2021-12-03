@@ -59,8 +59,8 @@ People
 <ul class="photo-gallery">
 <div id="wrap">
   {% for person in site.people %}
-    <div class="longbox">
-      <div class="innerContent">
+    <div class="bigbox">
+      <div class="longbox">
         <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
       </div>
       <div class="innerContent">
