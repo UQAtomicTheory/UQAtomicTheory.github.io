@@ -35,7 +35,7 @@ People
 }
 .longbox {
   width: 30%;
-  padding-bottom: 85%;
+  padding-bottom: 30%;
   position: relative;
   float: left;
 }
@@ -46,7 +46,7 @@ People
   float: left;
 }
 .innerContent {
-  position: absolute;
+  position: relative;
   left: 1px;
   right: 1px;
   top: 1px;
