@@ -12,8 +12,11 @@ People
 
   <h1><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></h1>
   <div class="entry">
-    {{ person.content }}
-    {{ person.image }}
+
+  <img src="{{ site.baseurl }}/images/{{ post.image }}">
+
+  {{ person.content }}
+
   </div>
 
 </article>
