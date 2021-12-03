@@ -27,15 +27,15 @@ People
 #wrap {
   overflow: hidden;
 }
-.longbox {
-  width: 30%;
+.imagebox {
+  width: 45%;
   padding-bottom: 0%;
   position: relative;
   float: left;
 }
-.innerContent {
+.textbox {
   position: relative;
-  left: 10px;
+  left: 25px;
   right: 1px;
   top: 1px;
   bottom: 1px;
@@ -49,14 +49,12 @@ People
   {% for person in site.people %}
   <h1><a href="{{ site.baseurl }}{{ person.url }}">{{ person.name }}</a></h1>
   <div class="entry">
-    <div class="bigbox">
-      <div class="longbox">
+      <div class="imagebox">
         <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
       </div>
-      <div class="innerContent">
+      <div class="textbox">
         {{ person.content }}
       </div>
-    </div>
   </div>
   {% endfor %}
 </div>
