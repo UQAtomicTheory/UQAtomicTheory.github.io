@@ -62,8 +62,8 @@ People
     <div class="longbox">
       <div class="innerContent">
         <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
-        {{ person.content }}
       </div>
+      {{ person.content }}
     </div>
   {% endfor %}
 </div>
