@@ -16,12 +16,12 @@ permalink: /people/
 }
 .textbox {
   position: relative;
-  width: 65%;
-  left: 1px;
-  right: 1px;
-  top: 1px;
-  bottom: 1px;
-  padding: 5px;
+  width: 100%;
+  left: 25px;
+  right: 25px;
+  top: 0px;
+  bottom: 10px;
+  padding: 10px;
 }
 </style>
 
