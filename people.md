@@ -17,7 +17,7 @@ permalink: /people/
 .textbox {
   position: relative;
   left: 25px;
-  right: 10px;
+  right: 60px;
   top: 1px;
   bottom: 1px;
   padding: 2px;
