@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conferences & Presentations
+title: Recent conferences & presentations
 permalink: /conferences/
 ---
 
