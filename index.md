@@ -2,7 +2,7 @@
 layout: page
 ---
 
-|![Our Group]({{ site.baseurl }}/images/group.jpg)|
+|<img align="right" width="45%" src="{{ site.baseurl }}/images/group.jpg">|
 -
 
 **Precision Atomic Theory Group**
