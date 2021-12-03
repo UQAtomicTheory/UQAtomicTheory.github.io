@@ -19,7 +19,7 @@ permalink: /people/
   right: 0px;
   top: 0px;
   bottom: 0px;
-  padding: 250px;
+  padding: 2px;
   text-align: justify;
 }
 </style>
@@ -31,7 +31,7 @@ permalink: /people/
   <strong>{{ person.name }}, </strong><em>{{ person.title }}</em>
   <div class="entry">
       <div class="imagebox">
-        <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
+        <img width="95%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
       </div>
       <div class="textbox">
         {{ person.content }}
