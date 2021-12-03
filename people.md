@@ -35,7 +35,7 @@ People
 }
 .longbox {
   width: 30%;
-  padding-bottom: 30%;
+  padding-bottom: 0%;
   position: relative;
   float: left;
 }
@@ -51,7 +51,7 @@ People
   right: 1px;
   top: 1px;
   bottom: 1px;
-  padding: 10px;
+  padding: 50px;
 }
 </style>
 
@@ -59,6 +59,8 @@ People
 <ul class="photo-gallery">
 <div id="wrap">
   {% for person in site.people %}
+  <h1><a href="{{ site.baseurl }}{{ person.url }}">{{ person.name }}</a></h1>
+  <div class="entry">
     <div class="bigbox">
       <div class="longbox">
         <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
@@ -67,6 +69,7 @@ People
         {{ person.content }}
       </div>
     </div>
+  </div>
   {% endfor %}
 </div>
 </ul>
