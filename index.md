@@ -2,8 +2,9 @@
 layout: page
 ---
 
-|<img align="right" width="45%" src="{{ site.baseurl }}/images/group.jpg">|
--
+<kbd>
+  <img align="right" width="45%" src="{{ site.baseurl }}/images/group.jpg">
+</kbd>
 
 **Precision Atomic Theory Group**
 **_University of Queensland, Australia_**
