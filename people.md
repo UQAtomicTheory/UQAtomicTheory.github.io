@@ -5,9 +5,7 @@ permalink: /people/
 ---
 
 <style type="text/css">
-#wrap {
-  overflow: hidden;
-}
+
 .imagebox {
   width: 35%;
   padding-bottom: 0%;
@@ -22,6 +20,7 @@ permalink: /people/
   top: 0px;
   bottom: 10px;
   padding: 10px;
+  text-align: justify;
 }
 </style>
 
