@@ -48,6 +48,7 @@ People
 <div id="wrap">
   {% for person in site.people %}
   <h1><a href="{{ site.baseurl }}{{ person.url }}">{{ person.name }}</a></h1>
+  <h3><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></h3>
   <div class="entry">
       <div class="imagebox">
         <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
