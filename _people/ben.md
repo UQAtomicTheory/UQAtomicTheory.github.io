@@ -1,7 +1,7 @@
 ---
 usemathjax: true
 layout: post
-title: Ben
+name: Ben
 slug: ben
 image: ben.jpg
 ---
