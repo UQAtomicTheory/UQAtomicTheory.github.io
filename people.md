@@ -19,7 +19,7 @@ permalink: /people/
   right: 0px;
   top: 0px;
   bottom: 0px;
-  padding: 25px;
+  padding: 250px;
   text-align: justify;
 }
 </style>
