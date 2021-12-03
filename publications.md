@@ -1,14 +1,10 @@
 ---
 layout: page
-title: Publications
+title: Recent publications
 permalink: /publications/
 ---
 
-Preamble.....
-
-# Recent publications:
-
- {% for pub in site.publications reversed %}
+{% for pub in site.publications reversed %}
  <article class="post">
 
    <h1><a href="{{ site.baseurl }}{{ pub.url }}">{{ pub.title }}</a></h1>

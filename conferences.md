@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Conferences & Presentations
-permalink: /talks/
+permalink: /conferences/
 ---
-
-Presentations:
 
 {% for pres in site.presentations reversed %}
 
