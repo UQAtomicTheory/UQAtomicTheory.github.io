@@ -9,7 +9,7 @@ permalink: /people/
   overflow: hidden;
 }
 .imagebox {
-  width: 45%;
+  width: 35%;
   padding-bottom: 0%;
   position: relative;
   float: left;
@@ -28,7 +28,7 @@ permalink: /people/
 <ul class="photo-gallery">
 <div id="wrap">
   {% for person in site.people %}
-  <strong><a href="{{ site.baseurl }}{{ person.url }}">{{ person.name }}, </a></strong><em>{{ person.title }}<em>
+  <strong>{{ person.name }}, </strong><em>{{ person.title }}</em>
   <div class="entry">
       <div class="imagebox">
         <img width="100%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}"/>
@@ -37,6 +37,7 @@ permalink: /people/
         {{ person.content }}
       </div>
   </div>
+  <br>
   {% endfor %}
 </div>
 </ul>
