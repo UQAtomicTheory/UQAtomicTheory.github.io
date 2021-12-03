@@ -27,31 +27,19 @@ People
 #wrap {
   overflow: hidden;
 }
-.box {
-  width: 50%;
-  padding-bottom: 50%;
-  position: relative;
-  float: left;
-}
 .longbox {
   width: 30%;
   padding-bottom: 0%;
   position: relative;
   float: left;
 }
-.bigbox {
-  width: 100%;
-  padding-bottom: 100%;
-  position: relative;
-  float: left;
-}
 .innerContent {
   position: relative;
-  left: 1px;
+  left: 10px;
   right: 1px;
   top: 1px;
   bottom: 1px;
-  padding: 50px;
+  padding: 10px;
 }
 </style>
 
