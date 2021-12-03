@@ -16,11 +16,12 @@ permalink: /people/
 }
 .textbox {
   position: relative;
-  left: 25px;
-  right: 60px;
+  width: 65%;
+  left: 1px;
+  right: 1px;
   top: 1px;
   bottom: 1px;
-  padding: 2px;
+  padding: 5px;
 }
 </style>
 
@@ -37,6 +38,7 @@ permalink: /people/
         {{ person.content }}
       </div>
   </div>
+  <hr>
   <br>
   {% endfor %}
 </div>
