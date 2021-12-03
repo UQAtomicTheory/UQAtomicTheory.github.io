@@ -50,6 +50,9 @@ collections:
   presentations:
     output: true
     permalink: /slides/:year/:slug/
+  people:
+    output: true
+    permalink: /:slug/
   redirects:
     output: true
 

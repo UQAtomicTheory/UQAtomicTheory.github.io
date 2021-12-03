@@ -12,7 +12,8 @@ People
 
   <h1><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></h1>
   <div class="entry">
-    {{ person.excerpt }}
+    {{ person.content }}
+    {{ person.image }}
   </div>
 
 </article>
