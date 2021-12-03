@@ -13,7 +13,7 @@ People
   <h1><a href="{{ site.baseurl }}{{ person.url }}">{{ person.name }}</a></h1>
   <div class="entry">
 
-  <img src="{{ site.baseurl }}/images/{{ person.image }}">
+  <img width="33%" src="{{ site.baseurl }}/images/{{ person.image }}" alt="{{ person.name}}" style="float: left"/>
 
   {{ person.content }}
 
@@ -23,7 +23,7 @@ People
 {% endfor %}
 
 
-<style type="text/css">
+<!-- <style type="text/css">
 #wrap {
   overflow: hidden;
 }
@@ -67,4 +67,4 @@ People
     </div>
   {% endfor %}
 </div>
-</ul>
+</ul> -->
